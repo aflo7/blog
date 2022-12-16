@@ -1,0 +1,32 @@
+GET http://localhost:5000/api HTTP/1.1
+
+###
+
+POST http://localhost:5000/api/login HTTP/1.1
+content-type: application/json
+
+{
+  "username": "aflo7",
+  "password": "pass"
+}
+
+###
+
+POST http://localhost:5000/api/posts/all HTTP/1.1
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYzOWFmYWE1NDQyOTA4Zjk2MDE2NmZkYyIsInVzZXJuYW1lIjoiYWZsbzciLCJwYXNzd29yZCI6InBhc3MiLCJuYW1lIjoiQW5kcmVzIEZsb3JlcyIsIl9fdiI6MH0sImlhdCI6MTY3MTE2ODcwMywiZXhwIjoxNjcxMTY5NjAzfQ.b5ojddPbytj2gyUyTvFVuJLuAUj9O_gYUmD50LugXLY
+
+###
+
+DELETE http://localhost:5000/api/posts/639bf9a322327509842f57de HTTP/1.1
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYzOWFmYWE1NDQyOTA4Zjk2MDE2NmZkYyIsInVzZXJuYW1lIjoiYWZsbzciLCJwYXNzd29yZCI6InBhc3MiLCJuYW1lIjoiQW5kcmVzIEZsb3JlcyIsIl9fdiI6MH0sImlhdCI6MTY3MTE2NTYyMiwiZXhwIjoxNjcxMTY2NTIyfQ.EJVEy1DALaIF4MRhtsJ7C2pT6geTtb6klyPGvskCmhw
+
+###
+
+POST http://localhost:5000/api/posts/ HTTP/1.1
+content-type: application/json
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjYzOWFmYWE1NDQyOTA4Zjk2MDE2NmZkYyIsInVzZXJuYW1lIjoiYWZsbzciLCJwYXNzd29yZCI6InBhc3MiLCJuYW1lIjoiQW5kcmVzIEZsb3JlcyIsIl9fdiI6MH0sImlhdCI6MTY3MTE3OTg1NiwiZXhwIjoxNjcxMTgwNzU2fQ.RG7oo13ZjK6nQh9QoihYbtklW09L5-pocKFEcmmij5k
+
+{
+  "poster": "Andres Flores",
+  "content": "Node is super cool"
+}
