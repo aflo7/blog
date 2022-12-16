@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue;
+}
+
+#post_wrapper {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+.individual_post_wrapper {
+  background-color: rgb(150, 150, 150);
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  word-break: break-all;
+  font-size: 10pt;
+  /* width: 50%; */
+}
+
+.comment_wrapper {
+  font-size: 10pt;
+  color: white;
+  padding: 5px;
+}
+
+.individual_comment {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.login_form_wrapper {
+  display: block;
+}
+
+.new_post_btn {
+  display: none;
+  cursor: pointer;
+}
+
+.new_post_wrapper {
+  background-color: black;
+  color: white;
+}
+
+.delete {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
