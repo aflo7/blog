@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 require("dotenv").config()
-const devDB = "mongodb+srv://florand:November123@cluster0.eo8nhct.mongodb.net/blog?retryWrites=true&w=majority"
+const devDB = ""
 const { Post, Comment } = require("../models/schema")
 
 mongoose.set("strictQuery", false)

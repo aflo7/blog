@@ -25,6 +25,8 @@ What is the relationship between the models in the database?
 
 Frontend 2 is for an admin user to write, delete, and publish blog posts
 
+![alt](./login.png)
+
 ![alt](./f2.png)
 
 ![alt](./f2_1.png)
